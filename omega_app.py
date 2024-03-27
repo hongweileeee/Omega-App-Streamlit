@@ -3,7 +3,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 # Open the pickle file in read-binary mode
-with open('/Omega-App-Streamlit/model.pkl', 'rb') as f:
+with open('Omega-App-Streamlit/model.pkl', 'rb') as f:
     # Load the model from the file
     model = pickle.load(f)
 
